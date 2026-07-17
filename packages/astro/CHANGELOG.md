@@ -1,5 +1,11 @@
 # astro
 
+## 7.1.2
+
+### Patch Changes
+
+- [#17402](https://github.com/withastro/astro/pull/17402) [`a89c137`](https://github.com/withastro/astro/commit/a89c137a424b4d7bf97df067bba023eccc2317eb) Thanks [@farrosfr](https://github.com/farrosfr)! - Fixes a bug where mutated `Astro.locals` during the request lifecycle are lost and not passed to custom error pages (`404.astro`/`500.astro`)
+
 ## 7.1.1
 
 ### Patch Changes
